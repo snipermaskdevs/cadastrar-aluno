@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Alunos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Alunos</h1>
+    <form id="student-form">
+      <input type="text" id="name" placeholder="Nome do Aluno" required>
+      <input type="number" id="age" placeholder="Idade" required>
+      <input type="text" id="class" placeholder="Turma" required>
+      <input type="tel" id="phone" placeholder="Telefone" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" id="address" placeholder="Endereço" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <div class="actions">
+      <button id="export-btn">Exportar Dados</button>
+      <input type="file" id="import-file" accept=".json">
+    </div>
+
+    <h2>Lista de Alunos</h2>
+    <ul id="student-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

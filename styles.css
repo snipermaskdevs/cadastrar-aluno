@@ -1,0 +1,154 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #007bff;
+}
+
+form button {
+    padding: 12px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+/* Estilo da seção de Ações */
+.actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 12px;
+    margin: 5px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Lista de Alunos */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  li .info span {
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  li .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  li .actions button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li .actions .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  li .actions .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  li .actions .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  li .actions .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  
+
+.actions button {
+    background-color: #007bff;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
+
+/* Arquivo de importação */
+input[type="file"] {
+    display: inline-block;
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
